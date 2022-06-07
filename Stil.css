@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+body {
+	background-color: lightblue;
+	background-image: url("Slike/oblaci.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border: 20px solid lightblue;
+	text-align: center;
+	margin: 0px;
+	padding: 50px;
+}
+
+h3{
+	color: darkblue;
+	font-family: Arial;
+	width: 560px;
+	text-align: center;
+	padding-left: 25%;
+}
+
+h1{
+	font-family: Arial;
+}
+
+h2{
+	color: black;
+	font-family: Arial;
+	line-height: 30px;
+	width: 50%;
+	text-align: center;
+	background-color: rgba(255,255,255,0.5);
+	padding: 30px;
+	padding-left:25%;
+	padding-right:25%;
+}
+
+p, blockquote {
+	color: darkblue;
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 20px;
+	width: 50%;
+	text-align: center;
+	background-color: rgba(255,255,255,0.5);
+	padding: 30px;
+	padding-left:25%;
+	padding-right:25%;
+}
+
+.liste1{
+	background-color: rgba(255,255,255,0.5);
+	margin: 50px;
+	font-family: Arial;
+	font-size: 20px;
+	color: darkblue;
+	text-align: center;
+	padding-bottom: 20px;
+	line-height: 30px;
+}
+
+.liste2{
+	background-color: rgba(255,255,255,0.5);
+	margin: 50px;
+	font-family: Arial;
+	font-size: 20px;
+	color: darkblue;
+	text-align: center;
+	padding-bottom: 20px;
+	line-height: 30px;
+}
+
+.linkovi {
+	background-color:rgba(255,255,255,0.5);
+	text-decoration:none;
+	line-height: 30px;
+	text-align: center;
+	padding-bottom: 20px;
+	padding: 15px;
+}
+
+a:link {
+	text-decoration: none;
+	color: gray;
+	padding: 10px;
+	line-height: 28px;
+	font-family: Arial;
+	transition: 0.5s;
+}
+a:hover {
+	color: lightgray;
+	padding: 10px;
+	background-color: white;
+	line-height: 28px;
+	font-family: Arial;
+	transition: 0.5s;
+}
+a:visited{
+	text-decoration:none;
+	color:gray;
+}
+
+video{
+	padding: 50px;
+}
+
+audio{
+	padding: 50px;
+}
+
+
+
